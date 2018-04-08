@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.developer.aaswin.lapit.RegisterActivity">
+    <include layout="@layout/app_bar_layout" android:id="@+id/register_app_bar"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/register_app_bar"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="78dp"
+        android:text="Create a New Account"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/reg_input_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:hint="@string/enter_your_name" />
+
+    <EditText
+        android:id="@+id/reg_input_email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/reg_input_name"
+        android:layout_below="@+id/reg_input_name"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:hint="@string/enter_your_email_id" />
+
+    <EditText
+        android:id="@+id/reg_input_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginEnd="15dp"
+        android:layout_alignStart="@+id/reg_input_email"
+        android:layout_below="@+id/reg_input_email"
+        android:hint="@string/enter_your_desired_pasword" />
+
+    <Button
+        android:id="@+id/reg_createAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/reg_input_password"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#D84315"
+        android:padding="20dp"
+        android:text="@string/create_new_account" />
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Lapit</string>
+    <string name="create_new_account">Create new Account</string>
+    <string name="enter_your_desired_pasword">Enter your Desired Pasword</string>
+    <string name="enter_your_email_id">Enter your Email Id</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="logout">Logout</string>
+    <string name="accountsettings">AccountSettings</string>
+    <string name="all_users">All Users</string>
+    <string name="password_login">Password</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="image_change_button">Change Image</string>
+    <string name="change_status">Change Status</string>
+    <string name="Status_change">Change Status</string>
+</resources>
